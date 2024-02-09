@@ -1,0 +1,20 @@
+<h1 class="mt-3">Selectores Anidado</h1>
+<hr>
+
+<form  [formGroup]="myForm" >
+  <!-- Region -->
+  <div class="row mb-3">
+    <div class="col">
+      <label for="" class="form-label">Continente:</label>
+      <select name="" id="" class="form-control">
+        <option value=""></option>
+      </select>
+    </div>
+  </div>
+</form>
+
+
+<h3>Formulario</h3>
+<code>
+  {{ myForm.value | json }}
+</code>
